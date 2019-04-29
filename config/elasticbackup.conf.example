@@ -1,0 +1,12 @@
+# Elasticsearch cluster URL (with port if required)
+ES_URL="http://elasticsearch-lb:9200"
+# Name of the repository used to create backup on ES
+ES_REPO_NAME="elasticbackup"
+# Repository type (supported : fs)
+ES_REPO_TYPE="fs"
+# Repository settings as json object
+ES_REPO_SETTINGS_JSON="{\"location\":\"/mnt/snapshots/backup\", \"compress\": true}"
+# Snapshot time to live
+ES_SNAPSHOT_PRESERVE_COUNT=5
+# Snapshot prefix
+ES_SNAPSHOT_PREFIX="elasticbackup"
