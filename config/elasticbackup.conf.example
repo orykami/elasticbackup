@@ -10,3 +10,5 @@ ES_REPO_SETTINGS_JSON="{\"location\":\"/mnt/snapshots/backup\", \"compress\": tr
 ES_SNAPSHOT_PRESERVE_COUNT=5
 # Snapshot prefix
 ES_SNAPSHOT_PREFIX="elasticbackup"
+# Slack Webhook URL to notify from backup state (keep it secret !)
+SLACK_WEBHOOK_URL="https://hooks.slack.com/services/xxxxx/xxxxx"
